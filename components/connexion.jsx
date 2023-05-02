@@ -2,7 +2,7 @@ import React from 'react';
 import * as Form from '@radix-ui/react-form';
 import '../src/connexion.css';
 
-const FormDemo = () => (
+const Banner = () => (
   <Form.Root className="FormRoot">
     <Form.Field className="FormField" name="email">
       <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between' }}>
@@ -37,4 +37,4 @@ const FormDemo = () => (
   </Form.Root>
 );
 
-export default FormDemo;
+export default Banner;
