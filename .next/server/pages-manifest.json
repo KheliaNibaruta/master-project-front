@@ -1,6 +1,13 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/api/cart": "pages/api/cart.js",
+  "/api/checkout": "pages/api/checkout.js",
+  "/api/hello": "pages/api/hello.js",
+  "/_error": "pages/_error.js",
+  "/cart": "pages/cart.js",
+  "/api/webhook": "pages/api/webhook.js",
+  "/products": "pages/products.js",
+  "/": "pages/index.js",
+  "/product/[id]": "pages/product/[id].js"
 }
